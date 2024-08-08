@@ -147,7 +147,7 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
+  background: var(--blue-yellow-crayola);
   color: var(--smoky-black);
 }
 
