@@ -784,7 +784,7 @@ main {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 15px;
-  margin: 0 -15px;
+  margin: auto;
   padding: 25px;
   padding-bottom: 25px;
   overflow-x: auto;
