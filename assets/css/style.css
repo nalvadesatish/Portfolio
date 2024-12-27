@@ -1979,7 +1979,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box img {
-    width: 150px;
+    width: 130px;
   }
 
   .info-content .name {
@@ -2043,4 +2043,3 @@ textarea.form-input::-webkit-resizer {
     width: 100vw;
   }
 }
-
