@@ -117,6 +117,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.loader {
+  background-color: var(--orange-yellow-crayola);
+  height: 2px;
+  width: 0;
+  animation: loader 0.5s ease-in-out;
+}
 
 a {
   text-decoration: none;
@@ -2026,3 +2032,15 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 }
+@keyframes loader {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 60vw;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+
